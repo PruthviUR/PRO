@@ -1,0 +1,77 @@
+SRS of ticket Booking System
+
+Title:- system requirement Specification for Online Ticket Booking
+
+Team:-                 Direct Customer ,Indirect Customer, Bussiness Analyst, Quality Assureance Team,Architect , Systtem Analyst.
+
+Objective:-            This is about growwing transportation ,increasing population to  make easier and simple transportation for every person of a city.
+                       This website will help a passanger to book a ticket in advance online an it can be done from anywhere.
+ 
+Scope :-                This website will help passanger to see a status of booked ticket and timing of train as well as he/she can cancle a ticket before confirmation.
+                        This website will help Railways management team to understand the  total no. booked Ticket and also remainning seats .
+
+Functional Requirement:- 
+              User Requirement:-
+                         Any non registerd person can view the website as well as can check the timing of train and available seats any one can register and  use the train booking web easily .
+                          User can book a ticket from any where any time and he can reschedule the timing before confirmation .And the payment can be done through web.
+                         User can cancle the the booking from any location . if train is cancled due to any reason the amonut will refounrd in users account directly.
+              Railways Management team:-
+                          The team can see the current booking states of a perticular train as well confirmed seats to manage according to that. They can give any notification throw website .
+                           The team will able to cancle the booking of tickets . Payment Staus of booked teackets.
+Non Function Requirement:-
+              Reliability:-
+                         The system will backup Team and client data on a regular basis and recover it in a short period of time for the system to operate for 24 hours.
+                         Continuous updates are necessary to ensure system functionality. Ongoing administration is carried out to keep the system up and running.
+                         At peak times, the system will maintain the same user experience in managing load balancing.
+              Availability:-
+	                 Uptime:   24* 7 available
+		         99.999%
+
+              Maintainability:-
+		         A Commercial database software will be used to maintain System data Persistence. 
+		         IT operations team will easily monitor and configure System using Administrative tools provided by Servers. 
+		         Separate environment will be maintained for system for isolation in production, testing, and development.
+
+              Portability:-
+ 	                 PDA: Portable Device Application 
+                         System will provide portable User Interface (HTML, CSS, and JS) through users will be able to access online Ticket Booking  site. 
+                         System can be deployed to single server, multi-server, to any OS, Cloud (Azure or AWS or GCP)
+
+Accessibility:-
+                     Only registered user will be able to book ticket  after authentication. Raiways team can reject or approve booking, user requests based on role provided.
+                         team will be able to view daily, weekly, monthly, annual booking Growth through customized dashboard.
+
+
+
+Durability:-
+   System will retain customer shopping cart for 15 minutes even though customer loose internet connection and join again. System will maintain cart for customer.
+   Customer will be able to add products to the shopping cart whenever needed.
+System will implement backup and recovery for retaining business operation data and business data over time.
+
+Efficiency:-
+   On Festival season, maximum number of users will place order, view Website with same response time.
+System will be able to manage all transactions with isolation.
+
+Modularity:-
+   System will designed and developed using reusable, independent or dependent business scenarios in the form of modules. These modules will be loosely coupled and
+   highly cohesive. System will contain CRM, Inventory, and booking tab, booking processing, payment processing, train module, membership and Roles management modules.
+	
+Scalability:-
+   System will be able to provide consistent user experience to client as well as visitors irrespective of load.
+
+Safety:-
+   The website will be secure from malicious attack, fishing. This online grocery Website should protected from outside with proper firewall configuration and IT will
+   be always kept updated with latest anti-virus software. 
+Business data will be backed up periodically to ensure safety of data using incremental back up strategy. Role based security will be applied for Application data and
+operations accessibility.
+
+
+
+
+
+
+ 
+
+
+                           
+            

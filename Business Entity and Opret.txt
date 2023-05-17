@@ -1,0 +1,66 @@
+Operation:
+
+Ticket Booking
+View booking
+approve
+remove Ticket from booking
+Show Ticket
+place booking
+show booking 
+show Booking details
+raise complaint
+Cancel booking
+update  booking
+recommend ticket type
+submit feedback
+transfer amount
+update user personal information
+register vendor
+validate user
+change password
+forgot password
+get user details
+Login
+Logout
+Notify
+get customer details
+List  available train according time
+show booking detail
+show booking History
+
+
+
+Business Entities:
+online Ticket booking website enitites:-
+
+customers:	
+             firstname,lastname, email,
+ 
+Ticket:    
+ 
+       id, title, description, ticket available, category,
+       reivew comments  rating,unitprice
+
+vendors
+
+      Staff; sales rep, marking rep, director,catalog
+
+orders:
+	  tckrid, bookingdate, customerid, amount, statusbooking
+	  , quantities,issues
+
+tktcart:
+	 id, ticket
+
+Ticket:
+	tid , quatities
+
+payments:
+	 paymentid, bookrid, payamentdate, amount, status
+	 transationid ,documents
+
+deliveries: 
+          Categories,users,grid,dashboard,feedbacks
+
+transations:
+	  transactionid,transactiondate,mode,from account,to account,amount.
